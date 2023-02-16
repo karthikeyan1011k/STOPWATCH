@@ -64,7 +64,7 @@ function stopwatch() {
 const body = document.querySelector('body');
 const heading = document.getElementById('heading');
 const watch = document.getElementById('stopwatch');
-const toggle = document.getElementById('toggledrak');
+const toggle = document.getElementById('toggleDark');
 toggle.addEventListener('click', function() {
   this.classList.toggle('bi-moon');
   if(this.classList.toggle('bi-brightness-high-fill')){
